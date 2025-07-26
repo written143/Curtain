@@ -88,5 +88,5 @@ jobs:
       - name: Upload Release Jar
         uses: softprops/action-gh-release@v0.1.15
         with:
-          tag_name: Curtain V1.3.2
+          tag_name: Curtain Fix
           files: build/libs/${{ steps.find-jar.outputs.jarname }}
